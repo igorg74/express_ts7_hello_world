@@ -1,0 +1,28 @@
+{
+  "name": "express_ts7_hello_world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsx app.ts",
+    "build": "rm -Rf ./dist && npx tsc -p tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "allowScripts": {
+    "tsx@4.23.15": true,
+    "esbuild@0.28.2": true
+  }
+}
